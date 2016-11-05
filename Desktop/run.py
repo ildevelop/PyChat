@@ -24,7 +24,7 @@ sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST,1)
 
 text=StringVar()
 name=StringVar()
-name.set('HabrUser')
+name.set('User')
 text.set('')
 tk.title('MegaChat')
 tk.geometry('400x300')
